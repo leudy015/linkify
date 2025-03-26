@@ -1,0 +1,14 @@
+<key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>tudominio</string>
+        </array>
+    </dict>
+</array>
+
+<key>NSUserActivityTypes</key>
+<array>
+    <string>NSUserActivityTypeBrowsingWeb</string>
+</array>

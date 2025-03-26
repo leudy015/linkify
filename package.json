@@ -1,0 +1,42 @@
+{
+  "name": "linkify-sdk",
+  "version": "1.0.5",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "description": "Librería para enlaces profundos dinámicos (Universal Links y App Links)",
+  "author": "Leudy Martes",
+  "homepage": "https://github.com/leudy015/linkify.git",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+
+  "react-native": {
+    "ios": "ios/linkify-sdk.podspec",
+    "android": "android/src/main/java/com/linkify/LinkifyModule.kt"
+  },
+  "dependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leudy015/linkify.git"
+  },
+
+  "keywords": [
+    "react-native-linkify",
+    "react-native",
+    "react-native-macos",
+    "linkify",
+    "linkify-sdk",
+    "dynamic-links",
+    "universal-links",
+    "app-links"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  }
+}
